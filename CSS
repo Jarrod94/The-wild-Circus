@@ -1,1 +1,128 @@
+body{
+  padding-top:70px;
+  margin-bottom:70px;
+  background:BLACK;
+  }
+  
+  #entete, #menu, #contenu, #footer {
+padding:1px 0;
+}  
 
+#entete{
+background-color:black;
+text-align:center;
+font-size: 10px;
+}
+
+#entete img{
+  height:400px;
+  width:960px;
+  text-align: center
+}
+
+#nav 
+{
+   margin:0;
+   padding:0;
+   background:#808259 ('nav_bg.jpg') 0 0 repeat-x;
+   float:left;
+   width:100%;
+   border:1px solid black ;
+   border-width:1px 0;
+}
+ 
+#nav li{
+   display:inline;
+   padding:0;
+   margin:0;
+}
+
+#nav a:link, #nav a:visited{
+   color:black;
+   background:white;
+   padding:10px 30px 4px 12px;
+   float:left;
+   width:auto;
+   border-right:1px solid white;
+   text-decoration:none;
+   font:bold 1em/1em Verdana, Helvetica,sans-serif;
+   text-transform:capitalize;
+   text-shadow: 2px 2px 2px #555;
+}
+            
+#nav li:first-child a{
+   border-left:1px solid black;
+   float:left;
+}
+
+#nav a:hover{
+   color:black;
+   background:green;
+}
+
+
+#menu{
+float:left;
+width:240px;
+background-color:white;  
+}
+
+
+
+
+#contenu {
+margin-right:240px;
+background-color:Black;
+}
+
+
+
+#contenu h3{
+ color:white;
+  text-align:left;
+  font-size: 20px.
+}
+
+#contenu h1{
+  font-size: 60px;
+  font-family:Stencil Std;
+  color:White;
+  text-align:Center;  
+}
+
+#contenu ul li{
+    text-align:center;
+    font-size:15px;
+    color:white;  
+}
+
+
+#contenu ul img{
+ height:100px;
+ width:100px;   
+} 
+
+
+
+
+
+
+
+#footer {
+background-color:Black;
+text-align:center;
+clear:both;
+width:900px
+}
+
+#footer img{
+    height:3Opx;
+    Width:30px;
+    text-align:center;
+}
+
+#footer p {
+text-align: center;
+color: white;
+font-size: 10px
+}
