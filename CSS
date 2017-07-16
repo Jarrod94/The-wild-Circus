@@ -1,128 +1,227 @@
-body{
-  padding-top:70px;
-  margin-bottom:70px;
-  background:BLACK;
-  }
-  
-  #entete, #menu, #contenu, #footer {
-padding:1px 0;
-}  
-
-#entete{
-background-color:black;
-text-align:center;
-font-size: 10px;
+body {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background: black;
+  max-width: 960px;
 }
 
-#entete img{
-  height:400px;
-  width:960px;
-  text-align: center
+#header,
+#main,
+#menu,
+#contenu,
+#footer {
+  padding: 1px 0;
 }
 
-#nav 
-{
-   margin:0;
-   padding:0;
-   background:#808259 ('nav_bg.jpg') 0 0 repeat-x;
-   float:left;
-   width:100%;
-   border:1px solid black ;
-   border-width:1px 0;
-}
- 
-#nav li{
-   display:inline;
-   padding:0;
-   margin:0;
+#header {
+  background-color: black;
+  text-align: center;
+  font-size: 10px;
+  max-width: 960px;
+  padding: 0px;
 }
 
-#nav a:link, #nav a:visited{
-   color:black;
-   background:white;
-   padding:10px 30px 4px 12px;
-   float:left;
-   width:auto;
-   border-right:1px solid white;
-   text-decoration:none;
-   font:bold 1em/1em Verdana, Helvetica,sans-serif;
-   text-transform:capitalize;
-   text-shadow: 2px 2px 2px #555;
-}
-            
-#nav li:first-child a{
-   border-left:1px solid black;
-   float:left;
+#header img {
+  height: 400px;
+  max-width: 960px;
+  text-align: left;
 }
 
-#nav a:hover{
-   color:black;
-   background:green;
+#nav {
+  margin: 15px;
+  padding: 0;
+  background: #808259 ('nav_bg.jpg') 0 0 repeat-x;
+  float: left;
+  width: 100%;
+  border: 1px solid black;
+  border-width: 1px 0;
 }
 
-
-#menu{
-float:left;
-width:240px;
-background-color:white;  
+#nav li {
+  display: inline;
+  padding: 0;
+  margin: 0;
 }
 
-
-
-
-#contenu {
-margin-right:240px;
-background-color:Black;
+#nav a:link,
+#nav a:visited {
+  color: black;
+  background: white;
+  padding: 10px 30px 4px 12px;
+  float: left;
+  width: auto;
+  border-right: 1px solid black;
+  text-decoration: none;
+  font: bold 1em/1em Verdana, Helvetica, sans-serif;
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px #555;
 }
 
-
-
-#contenu h3{
- color:white;
-  text-align:left;
-  font-size: 20px.
+#nav li:first-child a {
+  border-left: 1px solid black;
+  float: left;
 }
 
-#contenu h1{
+#nav a:hover {
+  color: black;
+  background: grey;
+}
+
+#header h2 {
+  width: 960px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#header h1 {
+  width: 960px;
   font-size: 60px;
-  font-family:Stencil Std;
-  color:White;
-  text-align:Center;  
+  font-family: Stencil Std;
+  color: White;
+  text-align: Center;
 }
 
-#contenu ul li{
-    text-align:center;
-    font-size:15px;
-    color:white;  
+#header ul li {
+  text-align: center;
+  font-size: 15px;
+  color: WHITE;
 }
 
+#header div img {
+  height: 400px;
+  width: 960px;
+  text-align: center;
+}
 
-#contenu ul img{
- height:100px;
- width:100px;   
-} 
+#main {
+  max-width: 500px;
+  margin: auto;
+  padding: 0px;
+}
 
+#menu {
+  font-size: 0px;
+}
 
+#contained {
+  padding-right: 0PX;
+  margin-right: 0px;
+  background-color: black;
+  margin: 0px;
+}
 
+#contained div div p {
+  Color: white;
+  font-size: 25px;
+}
 
+#contained div div table {
+  padding: 0px;
+  border-radius: 20%;
+  border: solid 1px;
+  height: 40x;
+  background-color: black;
+  text-align: left;
+}
 
+#contained div div th {
+  border: black;
+  background: black;
+}
 
+#contained div div td {
+  border: solid black 12px;
+  border-radius: 10%;
+  background: White;
+  height: 60px;
+}
+
+#contained div div img {
+  width: 200px;
+  height: 200px;
+}
+
+#contained div {
+  padding: 200px;
+  width: 960px;
+  background-color: black;
+}
+
+#contained .flotte {
+  float: CENTER;
+}
+
+#contained div p {
+  font-size: 30px;
+  text-align: CENTER;
+  color: white;
+  text-align: justify;
+}
+
+#contained div img {
+  height: 300PX;
+  width: 300PX;
+  border-radius: 50%;
+  text-align: left;
+  padding-left: 0px
+}
+
+#contained h2 {
+  font-size: 30px;
+  background-color: Black;
+  color: white;
+}
+
+#contained p {
+  font-size: 25px;
+  color: black;
+}
+
+#contained img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#contained table {
+  width: 960;
+  background-color: white;
+  border: solid 30px Black;
+  padding: 5px;
+  text-align: left;
+  border-radius: 0%;
+}
+
+#contained th {
+  background: white;
+}
+
+#contained td {
+  border: thin solid white;
+  height: 20px;
+  background: White;
+  border: black 20px;
+  border-radius: 20%;
+}
 
 #footer {
-background-color:Black;
-text-align:center;
-clear:both;
-width:900px
+  background-color: Black;
+  text-align: center;
+  clear: both;
+  background-color: black;
 }
 
-#footer img{
-    height:3Opx;
-    Width:30px;
-    text-align:center;
+#footer h6 {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  padding-top: 10px;
 }
 
-#footer p {
-text-align: center;
-color: white;
-font-size: 10px
+#footer img {
+  height: 3Opx;
+  Width: 30px;
+  text-align: center;
+  padding-bottom: 10px;
 }
