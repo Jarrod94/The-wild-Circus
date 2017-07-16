@@ -14,7 +14,7 @@ Wild Circus est une compagnie de cirque de renommée internationale.
 
     Au delà du challenge technique, il s’agit aussi de faire preuve de créativité et d’imagination afin que les foules du monde entier se pressent aux portes des spectacles de “Wild Circus”.
 
-    Resultat :
+    Resultat :https://jsfiddle.net/Guts94/9u1q17kt/
 
 
 Bilan: Franchement médiocre en même temps je ne connais que les bases du HTML et du CSS, en bref j’ai fait avec les moyens actuels du bord. 
